@@ -1,0 +1,19 @@
+
+    ##Summarize the project and what problem it was solving.
+    The thermostat project involved taking temperature readings from the board at the press of a button. This would use GPIO interrupts to increase and decrease the set temperature. When the temperature is not met,
+    a LED light is turned on by the GPIO peripheral. the UART peripheral is used to simulate data being sent to the network since this is a "smart" thermostat. 
+    
+    ##What did you do particularly well?
+    I would say the best part was trying my best to replicate my understanding of using GPIO interrupts, UART, and my ideas on how to program the board to use the interrupts to increase and decrease the temperature. Sadly I was not able to debug as much as I wanted to because my board became faulty half way through the course.
+    
+    ##Where could you improve?
+    Definitely with using state machines to pass different functionality with more complex usages. I understand the basics but I know I can improve on the more complex natures. 
+    
+    ##What tools and/or resources are you adding to your support network?
+    I was not able to find much resources on this type of work sadly. Any questions I had was mostly met with my peers. I did meet new people and will definitely keep in touch to build a network of Software engineers like myself.
+    
+    ##What skills from this project will be particularly transferable to other projects and/or course work?
+    The logical processes of state machines could be more useful down the road in other projects as I will attempt to better myself with system architechture in my free time. Also writing to memory and pulling from memory was something new in this course that seemed interesting.
+    
+    ##How did you make this project maintainable, readable, and adaptable?
+    I made sure to leave concise comments on what each complex function's intended use in a way a person aside from myself would easily understand. Making sure to keep clear and easy naming conventions of variables and functions was also important.
